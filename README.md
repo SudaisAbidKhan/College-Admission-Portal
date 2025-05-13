@@ -37,8 +37,8 @@ Move the project to your web server’s root directory (e.g., htdocs in XAMPP).
 1. **Clone or Download the Project**
 
 2. **Create a MySQL Database**
-   - Create a database in XAMPP with the name "fee_collection"
-   - Import the fee_collection.sql file to it .
+   - Create a database in XAMPP with the name "college_portal"
+   - Import the fcollege_portal.sql file to it .
 
 
 
