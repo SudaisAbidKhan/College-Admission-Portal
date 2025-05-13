@@ -1,66 +1,60 @@
-🎓 College Admission Portal
-A web-based application built using PHP and MySQL to manage student admission processes, document uploads, admin validation, and reporting. Ideal for educational institutions seeking a lightweight and structured digital admissions workflow.
+#🎓 College Admission Portal
+A web-based application built using **PHP** and **MySQL** to manage student admission processes, document uploads, admin validation, and reporting. Ideal for educational institutions seeking a lightweight and structured digital admissions workflow.
 
-📌 Features
-👤 Admin Panel
-Secure admin login/logout
+---
 
-Dashboard for application monitoring
+##📌 Features
+### 👤 Admin Panel
+ -Secure admin login/logout
 
-Student data management
+ -Dashboard for application monitoring 
 
-Upload and verify documents
+ -Student data management
 
-Check payment receipt uploads
+ -Upload and verify documents
 
-Generate detailed reports
+ -Check payment receipt uploads
 
-Export data as needed
+ -Generate detailed reports
 
-👨‍🎓 Student Functions
-Online registration form
+ -Export data as needed
 
-Upload required admission documents
+---
 
-Payment proof submission
+##👨‍🎓 Student Functions
+ -Online registration form
 
-🛠️ Tech Stack
-Layer	Technology
-Frontend	HTML, CSS, Bootstrap
-Scripting	JavaScript
-Backend	PHP
-Database	MySQL
+ -Upload required admission documents
 
-📂 File Structure (Flat Layout)
+ -Payment proof submission
 
-College_admission_portal/
-├── admin_dashboard.php
-├── admin_login.php
-├── check_payment_receipt.php
-├── college_portal.sql
-├── config.php
-├── db_connection.php
-├── documentation.docx
-├── export_data.php
-├── generate_reports.php
-├── index.php
-...
+##🛠️ Tech Stack
+| Layer       | Technology             |
+|-------------|------------------------|
+| Frontend    | HTML, CSS, Bootstrap   |
+| Scripting   | JavaScript             |
+| Backend     | PHP                    |
+| Database    | MySQL                  |
+
+---
 ⚙️ Setup Instructions
-Clone or Download the Project
-
-
-git clone <repository-url>
-Or manually extract the ZIP file contents.
-
-Create a MySQL Database
-
-Create a new database named college_portal (or your preferred name).
-
-Import the provided SQL file: college_portal
-
-
 Make sure you have XAMPP install
 Move the project to your web server’s root directory (e.g., htdocs in XAMPP).
+1. **Clone or Download the Project**
+
+2. **Create a MySQL Database**
+   - Create a database in XAMPP with the name "fee_collection"
+   - Import the fee_collection.sql file to it .
+
+
+
+3. **Run the App**
+   - Place the project in your web server's root directory (e.g., `htdocs` if using XAMPP).
+   - Visit `http://localhost/your-folder/index.php`.
+
+---
+
+
 
 Visit in browser:
 
@@ -72,15 +66,6 @@ Example credentials:
 Username: admin
 
 Password: admin123
-
-🧰 Future Improvements
-Student login panel to track application status
-
-PDF generation for application summaries
-
-Notification system (email/SMS) for updates
-
-Mobile responsive UI improvements
 
 📄 License
 This project is for educational use.
